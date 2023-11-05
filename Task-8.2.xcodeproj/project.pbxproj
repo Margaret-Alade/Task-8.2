@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F0A8B2422AF4A06200CC9284 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2412AF4A06200CC9284 /* main.cpp */; };
+		F0A8B24B2AF4A50500CC9284 /* figure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2492AF4A50500CC9284 /* figure.cpp */; };
+		F0A8B24E2AF4A66C00CC9284 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B24C2AF4A66C00CC9284 /* triangle.cpp */; };
+		F0A8B2512AF4A74C00CC9284 /* quadrangl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B24F2AF4A74C00CC9284 /* quadrangl.cpp */; };
+		F0A8B2542AF4A83400CC9284 /* right_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2522AF4A83400CC9284 /* right_triangle.cpp */; };
+		F0A8B2572AF4A88E00CC9284 /* isosceles_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2552AF4A88E00CC9284 /* isosceles_triangle.cpp */; };
+		F0A8B25A2AF4A90400CC9284 /* equal_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2582AF4A90400CC9284 /* equal_triangle.cpp */; };
+		F0A8B25D2AF7A07300CC9284 /* restangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B25B2AF7A07300CC9284 /* restangle.cpp */; };
+		F0A8B2602AF7A19100CC9284 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B25E2AF7A19100CC9284 /* square.cpp */; };
+		F0A8B2632AF7A22400CC9284 /* parallelogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2612AF7A22400CC9284 /* parallelogram.cpp */; };
+		F0A8B2662AF7A2A300CC9284 /* rhomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2642AF7A2A300CC9284 /* rhomb.cpp */; };
+		F0A8B2692AF7A2F200CC9284 /* wrong_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A8B2672AF7A2F200CC9284 /* wrong_data.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,28 @@
 /* Begin PBXFileReference section */
 		F0A8B23E2AF4A06200CC9284 /* Task-8.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Task-8.2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A8B2412AF4A06200CC9284 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F0A8B2492AF4A50500CC9284 /* figure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = figure.cpp; sourceTree = "<group>"; };
+		F0A8B24A2AF4A50500CC9284 /* figure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = figure.hpp; sourceTree = "<group>"; };
+		F0A8B24C2AF4A66C00CC9284 /* triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
+		F0A8B24D2AF4A66C00CC9284 /* triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = triangle.hpp; sourceTree = "<group>"; };
+		F0A8B24F2AF4A74C00CC9284 /* quadrangl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quadrangl.cpp; sourceTree = "<group>"; };
+		F0A8B2502AF4A74C00CC9284 /* quadrangl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quadrangl.hpp; sourceTree = "<group>"; };
+		F0A8B2522AF4A83400CC9284 /* right_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = right_triangle.cpp; sourceTree = "<group>"; };
+		F0A8B2532AF4A83400CC9284 /* right_triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = right_triangle.hpp; sourceTree = "<group>"; };
+		F0A8B2552AF4A88E00CC9284 /* isosceles_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isosceles_triangle.cpp; sourceTree = "<group>"; };
+		F0A8B2562AF4A88E00CC9284 /* isosceles_triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isosceles_triangle.hpp; sourceTree = "<group>"; };
+		F0A8B2582AF4A90400CC9284 /* equal_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equal_triangle.cpp; sourceTree = "<group>"; };
+		F0A8B2592AF4A90400CC9284 /* equal_triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = equal_triangle.hpp; sourceTree = "<group>"; };
+		F0A8B25B2AF7A07300CC9284 /* restangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = restangle.cpp; sourceTree = "<group>"; };
+		F0A8B25C2AF7A07300CC9284 /* restangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = restangle.hpp; sourceTree = "<group>"; };
+		F0A8B25E2AF7A19100CC9284 /* square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = square.cpp; sourceTree = "<group>"; };
+		F0A8B25F2AF7A19100CC9284 /* square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = square.hpp; sourceTree = "<group>"; };
+		F0A8B2612AF7A22400CC9284 /* parallelogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parallelogram.cpp; sourceTree = "<group>"; };
+		F0A8B2622AF7A22400CC9284 /* parallelogram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = parallelogram.hpp; sourceTree = "<group>"; };
+		F0A8B2642AF7A2A300CC9284 /* rhomb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rhomb.cpp; sourceTree = "<group>"; };
+		F0A8B2652AF7A2A300CC9284 /* rhomb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rhomb.hpp; sourceTree = "<group>"; };
+		F0A8B2672AF7A2F200CC9284 /* wrong_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrong_data.cpp; sourceTree = "<group>"; };
+		F0A8B2682AF7A2F200CC9284 /* wrong_data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wrong_data.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,28 @@
 			isa = PBXGroup;
 			children = (
 				F0A8B2412AF4A06200CC9284 /* main.cpp */,
+				F0A8B24C2AF4A66C00CC9284 /* triangle.cpp */,
+				F0A8B24D2AF4A66C00CC9284 /* triangle.hpp */,
+				F0A8B2492AF4A50500CC9284 /* figure.cpp */,
+				F0A8B24A2AF4A50500CC9284 /* figure.hpp */,
+				F0A8B24F2AF4A74C00CC9284 /* quadrangl.cpp */,
+				F0A8B2502AF4A74C00CC9284 /* quadrangl.hpp */,
+				F0A8B2522AF4A83400CC9284 /* right_triangle.cpp */,
+				F0A8B2532AF4A83400CC9284 /* right_triangle.hpp */,
+				F0A8B2552AF4A88E00CC9284 /* isosceles_triangle.cpp */,
+				F0A8B2562AF4A88E00CC9284 /* isosceles_triangle.hpp */,
+				F0A8B2582AF4A90400CC9284 /* equal_triangle.cpp */,
+				F0A8B2592AF4A90400CC9284 /* equal_triangle.hpp */,
+				F0A8B25B2AF7A07300CC9284 /* restangle.cpp */,
+				F0A8B25C2AF7A07300CC9284 /* restangle.hpp */,
+				F0A8B25E2AF7A19100CC9284 /* square.cpp */,
+				F0A8B25F2AF7A19100CC9284 /* square.hpp */,
+				F0A8B2612AF7A22400CC9284 /* parallelogram.cpp */,
+				F0A8B2622AF7A22400CC9284 /* parallelogram.hpp */,
+				F0A8B2642AF7A2A300CC9284 /* rhomb.cpp */,
+				F0A8B2652AF7A2A300CC9284 /* rhomb.hpp */,
+				F0A8B2672AF7A2F200CC9284 /* wrong_data.cpp */,
+				F0A8B2682AF7A2F200CC9284 /* wrong_data.hpp */,
 			);
 			path = "Task-8.2";
 			sourceTree = "<group>";
@@ -119,7 +174,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A8B25A2AF4A90400CC9284 /* equal_triangle.cpp in Sources */,
+				F0A8B2692AF7A2F200CC9284 /* wrong_data.cpp in Sources */,
+				F0A8B2602AF7A19100CC9284 /* square.cpp in Sources */,
 				F0A8B2422AF4A06200CC9284 /* main.cpp in Sources */,
+				F0A8B2512AF4A74C00CC9284 /* quadrangl.cpp in Sources */,
+				F0A8B25D2AF7A07300CC9284 /* restangle.cpp in Sources */,
+				F0A8B2542AF4A83400CC9284 /* right_triangle.cpp in Sources */,
+				F0A8B24E2AF4A66C00CC9284 /* triangle.cpp in Sources */,
+				F0A8B2572AF4A88E00CC9284 /* isosceles_triangle.cpp in Sources */,
+				F0A8B24B2AF4A50500CC9284 /* figure.cpp in Sources */,
+				F0A8B2662AF7A2A300CC9284 /* rhomb.cpp in Sources */,
+				F0A8B2632AF7A22400CC9284 /* parallelogram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
