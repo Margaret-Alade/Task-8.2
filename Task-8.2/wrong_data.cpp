@@ -7,6 +7,4 @@
 
 #include "wrong_data.hpp"
 
-Wrong_data::Wrong_data(const std::string& e) {
-  throw std::domain_error(e);
-}
+Wrong_data::Wrong_data(const std::string& e) : std::domain_error(e) {}

@@ -9,7 +9,7 @@
 #include <iostream>
 #include "figure.hpp"
 
-class Wrong_data : public std::exception {
+class Wrong_data : public std::domain_error {
 public:
 
 Wrong_data(const std::string& e);
